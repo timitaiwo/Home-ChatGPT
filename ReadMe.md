@@ -1,5 +1,5 @@
 # An LLM Web Application 
-A simple flask application that runs a local copy of the [AMD OLMo large language model](https://huggingface.co/amd/AMD-OLMo).
+A simple flask application that runs a local copy of the [AMD OLMo language model](https://huggingface.co/amd/AMD-OLMo).
 
 ## Instructions
 - run ```python main.py``` in the terminal then open http://127.0.0.1:5000 or localhost:5000 in your browser.
