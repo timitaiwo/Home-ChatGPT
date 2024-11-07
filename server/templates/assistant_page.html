@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title  %} AMD OLMo demo {% endblock %}
+
+{% block body %}
+<p id="user_prompt">
+    <p>Question:</p>
+    <p>{{ prompt }}</p>
+</p>
+<p id="ai_model_response">
+    <p>Response:</p>
+    <p>{{ response }}</p>
+</p>
+{% endblock %}

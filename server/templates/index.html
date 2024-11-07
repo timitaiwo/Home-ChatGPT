@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title  %} AMD OLMo demo {% endblock %}
+
+{% block body %}
+Welcome to the chat page. Ask a question below, <br>for example: How are angels different from demons?
+
+<form action="/ai_model" method="get">
+    <p id="prompt_wrapper">
+        <label for="ai_prompt">Ask a question</label>
+        <textarea id="ai_prompt" name="prompt"></textarea>
+        <button type="submit">Make prompt</button>
+    </p>
+</form>
+{% endblock %}
